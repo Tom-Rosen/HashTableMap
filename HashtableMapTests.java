@@ -1,13 +1,7 @@
 import java.util.NoSuchElementException;
 
-// --== CS400 Project One File Header ==--
 // Name: Tom Rosen
-// Email: trrosen@wisc.edu 
-// Team: blue
-// Group: CI
-// TA: C
-// Lecturer: Florian Heimerl
-// Notes to Grader: <optional extra notes>
+// Email: trrosen @wisc.edu 
 
 /**
  * Creates 5 testers for the HashtableMap class.
