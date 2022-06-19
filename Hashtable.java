@@ -1,11 +1,5 @@
-// --== CS400 Project One File Header ==--
 // Name: Tom Rosen
 // Email: trrosen @wisc.edu 
-// Team: Blue
-// Group: CI
-// TA: TINGJIA CAO
-// Lecturer: Florian Heimerl
-// Notes to Grader: <optional extra notes>
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
@@ -13,7 +7,7 @@ import java.util.NoSuchElementException;
 public class Hashtable<KeyType, ValueType> implements MapADT {
 	
 	private LinkedList<DoubleHash>[] hashArr;
-	//CREATE AN ARRAY OF LINKED LISTS TO AVOID DUMBASS ISSUES.
+	//CREATE AN ARRAY OF LINKED LISTS TO AVOID ISSUES.
 
 	public Hashtable(int capacity) {
 		hashArr = new LinkedList[capacity];
@@ -64,7 +58,7 @@ public class Hashtable<KeyType, ValueType> implements MapADT {
 			hashArr = tempArr;
 			for(int i = 0; i < savedVals.length; i++)
 			{
-				//put(savedVals.get(0), savedVals.get(0)); Maybe just copy it lowk
+				
 			}
 		}
 	}
