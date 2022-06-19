@@ -1,11 +1,5 @@
-// --== CS400 Project One File Header ==--
 // Name: Tom Rosen
 // Email: trrosen @wisc.edu 
-// Team: Blue
-// Group: CI
-// TA: C
-// Lecturer: Florian Heimerl
-// Notes to Grader: <optional extra notes>
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
